@@ -18,9 +18,9 @@
 
 <div class="tree" style="text-indent: {indent}em; --cursor: {cursor}" on:click>
 	{#if open && Object.keys(parse(value)).length > 0}
-		<Icon svg={svg} />
+		<Icon svg={svgClose} />
 	{:else if !open && Object.keys(parse(value)).length > 0}
-		<Icon svg={svgClose}/>
+		<Icon svg={svg}/>
 	{/if}
 	{caption(key, value)}
 </div>
