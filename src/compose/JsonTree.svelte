@@ -10,6 +10,7 @@
 	export let open = false
 	export let svg = undefined
 	export let svgClose = undefined
+	export let bold = false
 
 	let entries = parse(data)
 	let cursor
@@ -21,12 +22,12 @@
 	}
 </script>
 
-<Entry {key} value={data} {open} {indent} {cursor} {svg} {svgClose} on:click={toggle} />
+<Entry {key} value={data} {open} {indent} {cursor} {svg} {bold} {svgClose} on:click={toggle} />
 
 {#if entries}
 	{#each entries as [k, v]}
 		{#if open}
-			<svelte:self key={k} data={v} indent={indent + tabSize} {tabSize} {svg} {svgClose} />
+			<svelte:self key={k} data={v} indent={indent + tabSize} {tabSize} {bold} {svg} {svgClose} />
 		{/if}
 	{/each}
 {/if}
