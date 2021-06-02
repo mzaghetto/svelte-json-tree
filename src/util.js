@@ -6,11 +6,7 @@ export function parse(value = false) {
 	return false
 }
 
-function word(total, singular, plural) {
+export function word(total, singular, plural) {
 	const choose = total > 1 ? plural : singular
 	return `${total} ${choose}`
-}
-
-export function caption(k, v) {
-	return `${k}: ${typeof v === 'object' && v ? word(Object.keys(v).length, 'property', 'properties') : v}`
 }
