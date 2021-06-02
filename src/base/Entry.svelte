@@ -19,7 +19,7 @@
 
 </script>
 
-<div class="tree" style="text-indent: {indent}em; --cursor: {cursor}" on:click>
+<div class="tree" style="margin-left: {indent}em; --cursor: {cursor}" on:click>
 	{#if open && Object.keys(parse(value)).length > 0}
 		<Icon svg={svgClose} />
 	{:else if !open && Object.keys(parse(value)).length > 0}
