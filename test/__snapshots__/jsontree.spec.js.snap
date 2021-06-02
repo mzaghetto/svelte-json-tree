@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JsonTree should match snapshot default 1`] = `
+<body>
+  <div>
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 1em; --cursor: default;"
+    >
+       
+      root: undefined
+    </div>
+     
+    
+  </div>
+</body>
+`;
+
+exports[`JsonTree should match snapshot props 1`] = `
+<body>
+  <div>
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 1em; --cursor: pointer;"
+    >
+      <svg
+        class="rotate tamanho fill svelte-hnwuv"
+      >
+        
+	
+        <svg
+          viewBox="0 0 22 22"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          
+		
+          <path
+            d="m345.44 248.29l-194.29 194.28c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744l171.91-171.91-171.91-171.9c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.29 194.28c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373"
+            transform="matrix(.03541-.00013.00013.03541 2.98 3.02)"
+          />
+          
+	
+        </svg>
+      </svg>
+       
+      root: 6 properties
+    </div>
+     
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 2em; --cursor: default;"
+    >
+       
+      id: 0001
+    </div>
+     
+    
+    
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 2em; --cursor: default;"
+    >
+       
+      type: donut
+    </div>
+     
+    
+    
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 2em; --cursor: default;"
+    >
+       
+      name: Cake
+    </div>
+     
+    
+    
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 2em; --cursor: default;"
+    >
+       
+      ppu: 0.55
+    </div>
+     
+    
+    
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 2em; --cursor: pointer;"
+    >
+      <svg
+        class="rotate tamanho fill svelte-hnwuv"
+      >
+        
+	
+        <svg
+          enable-background="new 0 0 960 560"
+          version="1.1"
+          viewBox="0 0 960 560"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          
+	
+          <path
+            d="M480,344.181L268.869,131.889c-15.756-15.859-41.3-15.859-57.054,0c-15.754,15.857-15.754,41.57,0,57.431l237.632,238.937   c8.395,8.451,19.562,12.254,30.553,11.698c10.993,0.556,22.159-3.247,30.555-11.698l237.631-238.937   c15.756-15.86,15.756-41.571,0-57.431s-41.299-15.859-57.051,0L480,344.181z "
+          />
+          
+
+        </svg>
+        
+	
+      </svg>
+       
+      batters: 1 property
+    </div>
+     
+    
+    
+    
+    
+    <div
+      class="tree svelte-1d3kerm"
+      style="text-indent: 2em; --cursor: pointer;"
+    >
+      <svg
+        class="rotate tamanho fill svelte-hnwuv"
+      >
+        
+	
+        <svg
+          enable-background="new 0 0 960 560"
+          version="1.1"
+          viewBox="0 0 960 560"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          
+	
+          <path
+            d="M480,344.181L268.869,131.889c-15.756-15.859-41.3-15.859-57.054,0c-15.754,15.857-15.754,41.57,0,57.431l237.632,238.937   c8.395,8.451,19.562,12.254,30.553,11.698c10.993,0.556,22.159-3.247,30.555-11.698l237.631-238.937   c15.756-15.86,15.756-41.571,0-57.431s-41.299-15.859-57.051,0L480,344.181z "
+          />
+          
+
+        </svg>
+        
+	
+      </svg>
+       
+      topping: 7 properties
+    </div>
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</body>
+`;
