@@ -1,6 +1,6 @@
 {
   "name": "@mzaghetto/svelte-json-tree",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": "github:mzaghetto/svelte-json-tree",
   "description": "Svelte JsonTree component",
   "keywords": [

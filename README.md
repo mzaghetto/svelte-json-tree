@@ -28,6 +28,7 @@ You can see an example here: https://svelte.dev/repl/1cf6feddd37243ac8a7c48d9c6a
 | `open`         | Boolean | Set if your tree started open or close                          |
 | `indent`       | Number  | Set the indent tree in `em`                                     |
 | `tabSize`      | Number  | Set the indent for child in `em`                                |
+| `bold`         | -       | When pass this prop, the title will be bold                     |
 | `svg`          | String  | Change SVG used to `open` state                                 |
 | `svgClose`     | String  | Change SVG used to `close` state                                |
 | `--fill`       | String  | Set the color to SVG, can be used `HSL`, `RGB`, `Color Name`    |
@@ -38,4 +39,4 @@ You can see an example here: https://svelte.dev/repl/1cf6feddd37243ac8a7c48d9c6a
 
 ## License
 
-MIT © [Marcos Zaghetto](https://github.com/jrzaghetto)
+MIT © [Marcos Zaghetto](https://github.com/mzaghetto)
